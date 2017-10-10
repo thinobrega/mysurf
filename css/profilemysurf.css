@@ -1,0 +1,375 @@
+
+.wrap2{
+	width:100%;
+	max-width:600px;  /*white distance for the form*/
+	padding:40px;
+	margin:auto;
+	background:#fff;
+	box-shadow:0px 0px 3px grey;
+}
+
+.wrapform{
+	width:100%;
+	color:#f2f2f2;
+	padding:10px;
+}
+
+.form{
+	width:100%;
+	margin:auto;
+}
+
+.input-group{
+	position:relative;
+	margin-bottom:32px; /*it separates inputs in height*/
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"]{
+	font-family:Century Gothic, Calibri Light, Arial;
+	font-size:16px;
+	color:#303F9F;
+	width:240%;      /* size of the line*/
+	outline:none;
+	padding:15px;
+	background:none;
+	border:none;
+	border-bottom:2px solid #BBDEFB;
+	
+
+}
+input[type="number"]{
+	width:660%;      /* size of the line*/
+	
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="text"]:active,
+input[type="email"]:active,
+input[type="password"]:active,
+input[type="number"]:active{
+	outline:none;
+	border-bottom:2px solid #303F9F;	
+}
+
+input[type="text"].error,
+input[type="email"].error,
+input[type="password"].error,
+input[type="number"].error{
+	border-bottom:2px solid #D32F2F;
+
+}
+
+input[type="text"].error + label,
+input[type="email"].error + label,
+input[type="password"].error + label,
+input[type="number"].error + label{
+	color: #D32F2F;
+}
+
+.form .input-group label {
+	color:#303F9F;
+}
+.form .input-group label.label  {
+          margin-left: 15px;
+          font-size: 16px;
+          line-height: 16px;
+          position: absolute;
+          top: 16px;
+          left: 0; 
+		  -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+		  }
+		  
+.form .input-group label.label.active {
+            top: -12px;
+            font-size: 12px;
+            line-height: 12px;
+            color: #B6B6B6; 
+			}
+			
+			.input-group.checkbox label, .input-group.radio label {
+        display: inline-block;
+        cursor: pointer;
+        color: #303F9F;
+        position: relative;
+        padding: 5px 15px 5px 51px;
+        font-size: 1em;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; 
+		}
+		
+		.input-group.checkbox label:hover, .input-group.radio label:hover {
+			background: #bbdefb; 
+			}
+			
+			
+			.input-group.checkbox label:before, .input-group.radio label:before{
+				 content: "";
+          display: inline-block;
+          width: 17px;
+          height: 17px;
+          position: absolute;
+          left: 15px;
+          border-radius: 50%;
+          background: none;
+          border: 2px solid #303F9F;
+			}
+			
+			.input-group.error label {
+        color: #D32F2F; 
+		}
+		
+		.input-group.error label:hover {
+          background: rgba(211, 47, 47, 0.2); 
+		  }
+		  
+		  .input-group.error label:before {
+          border: 2px solid #D32F2F; }
+		
+		input-group.radio input[type="radio"] {
+        display: none; }
+		
+		
+		
+		
+		
+		
+		.input-group.radio input[type="radio"] {
+        display: none; }
+		
+		
+		
+		.input-group.radio input[type="radio"]:checked + label:before {
+          display: none; 
+		  }
+        .input-group.radio input[type="radio"]:checked + label {
+          padding: 5px 15px;
+          background: #303F9F;
+          border-radius: 2px;
+          color: #f2f2f2; 
+		  }
+      .input-group.checkbox label:before {
+        border-radius: 3px; 
+		}
+     .input-group.checkbox input[type="checkbox"] {
+        display: none; 
+		}
+       .input-group.checkbox input[type="checkbox"]:checked + label:before {
+          display: none; 
+		  }
+         .input-group.checkbox input[type="checkbox"]:checked + label {
+          background: #303F9F;
+          color: #f2f2f2;
+          padding: 5px 15px; 
+		  }
+    input[type="submit"],
+	input[type="reset"]  {
+      background: #303F9F;
+      border-radius: 1px;
+      border: 2px solid #f2f2f2;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Century Gothic, Calibri Light, Arial;
+      font-size: 16px;
+      padding: 15px;
+	  
+      width: 35%;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+     
+	 input[type="submit"]:hover {
+        background: #1976D2; }
+	 input[type="reset"]:hover {
+        background: #1976D2; }
+		
+		
+		
+	
+
+
+		
+		
+	.content{
+	width:100%;
+background:#f2f2f2; 
+	height:900px;
+	
+	
+	
+}
+
+.content-left{
+	
+	height:900px;
+	width:50%;
+	float:left;
+	background: white;
+	border-bottom:2px solid #303F9F;
+	border-top:2px solid #303F9F;
+	margin-left:0;
+}
+
+.content-right{
+	height:900px;
+	width:50%;
+	float:right;
+	border-bottom:2px solid #303F9F;
+	border-top:2px solid #303F9F;
+	margin-right:0;
+	
+	
+	
+}
+
+.content-right h2 {
+	font-family:Calibri Light, Century Gothic;
+	font-size:35px;
+	color:#303F9F;
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	
+	}
+	
+	.content-right p {
+		font-family:Calibri Light, Century Gothic;
+	font-size:22px;
+	color:black;
+	text-align:center;	
+	}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+	.box{
+    width: 200px;
+    -webkit-transition: all .2s;
+    background: #e3e3e3;
+    line-height: 50px;
+    text-align: center;
+
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.5),
+        1px 1px 5px rgba(0,0,0,.3);
+    cursor: pointer;
+	
+	display:inline-block;
+	
+	margin-top:200px;
+	margin-left:250px;
+	font-family:Calibri Light, Century Gothic;
+	font-size:24px;
+			color:#303F9F;
+	margin:auto;
+vertical-align: middle;
+top:50%;
+left:50%;	
+}
+
+.box:hover{
+    background: #303F9F;
+    color: #e3e3e3
+}	
+		
+		
+			
+	.box{
+    width: 200px;
+    -webkit-transition: all .2s;
+    background: #e3e3e3;
+    line-height: 50px;
+    text-align: center;
+
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.5),
+        1px 1px 5px rgba(0,0,0,.3);
+    cursor: pointer;
+	
+	display:inline-block;
+	
+	margin-top:200px;
+	margin-left:250px;
+	font-family:Calibri Light, Century Gothic;
+	font-size:24px;
+			color:#303F9F;
+	margin:auto;
+vertical-align: middle;
+top:50%;
+left:50%;	
+}
+
+.box:hover{
+    background: #303F9F;
+    color: #e3e3e3
+}	
+		
+		
+		#thx{padding-top:500px;
+	margin: auto;
+	
+	padding:10px;
+	margin-bottom:50px;
+			box-shadow:0 1px 16px #666;
+			-moz-box-shadow:0 1px 16px #666;
+			-webkit-box-shadow:0 1px 16px #666;
+			font: 30px "Calibri Light", Arial;
+			color:#303F9F;
+			
+		}	
+		#thxx{
+	margin: auto;
+	
+	padding:10px;
+	margin-bottom:50px;
+			box-shadow:0 1px 16px #666;
+			-moz-box-shadow:0 1px 16px #666;
+			-webkit-box-shadow:0 1px 16px #666;
+			font: 30px "Calibri Light", Arial;
+			color:#303F9F;
+			margin:auto;
+			left:50%;
+		}	
+		
